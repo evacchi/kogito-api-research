@@ -1,6 +1,7 @@
 package org.kie.kogito.research.application.api.impl;
 
 import org.kie.kogito.research.application.api.*;
+import org.kie.kogito.research.application.api.context.Context;
 
 public abstract class AbstractUnitInstance implements UnitInstance {
 

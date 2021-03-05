@@ -3,6 +3,7 @@ package org.kie.kogito.research.processes.core.impl;
 import io.smallrye.mutiny.operators.multi.processors.BroadcastProcessor;
 import org.junit.jupiter.api.Test;
 import org.kie.kogito.research.application.api.*;
+import org.kie.kogito.research.application.api.context.Context;
 import org.kie.kogito.research.processes.api.ProcessEvent;
 
 import java.util.List;

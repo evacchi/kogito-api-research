@@ -4,6 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 import org.junit.jupiter.api.Test;
+import org.kie.kogito.research.application.api.context.Context;
 import org.kie.kogito.research.application.api.impl.AbstractApplication;
 import org.kie.kogito.research.application.api.impl.AbstractUnit;
 import org.kie.kogito.research.application.api.impl.AbstractUnitContainer;

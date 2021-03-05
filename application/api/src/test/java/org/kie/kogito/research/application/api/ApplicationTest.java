@@ -1,6 +1,7 @@
 package org.kie.kogito.research.application.api;
 
 import org.junit.jupiter.api.Test;
+import org.kie.kogito.research.application.api.context.Context;
 import org.kie.kogito.research.application.api.impl.AbstractApplication;
 import org.kie.kogito.research.application.api.impl.AbstractUnit;
 import org.kie.kogito.research.application.api.impl.AbstractUnitContainer;

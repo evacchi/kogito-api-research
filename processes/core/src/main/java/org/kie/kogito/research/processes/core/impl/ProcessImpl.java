@@ -1,6 +1,6 @@
 package org.kie.kogito.research.processes.core.impl;
 
-import org.kie.kogito.research.application.api.Context;
+import org.kie.kogito.research.application.api.context.Context;
 import org.kie.kogito.research.application.api.Event;
 import org.kie.kogito.research.application.api.MessageBus;
 import org.kie.kogito.research.application.api.impl.AbstractUnit;
