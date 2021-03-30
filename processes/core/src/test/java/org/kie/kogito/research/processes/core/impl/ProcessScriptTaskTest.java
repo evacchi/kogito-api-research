@@ -54,8 +54,11 @@ public class ProcessScriptTaskTest {
                             /* original script */
                             /* System.out.printf("Hello, %s!\n", user); */
                             /* begin rewritten */
-                            var $ctx = (MyContext)$$ctx;
-                            System.out.printf("Hello, %s!\n", $ctx.user);
+                            var $ctx = (MyContext) $$ctx;
+                            var user = $ctx.user;
+                            var age = $ctx.age;
+                            /* end rewritten */
+                            System.out.printf("Hello, %s!\n", user);
                         }),
                         new EndNode());
             }
