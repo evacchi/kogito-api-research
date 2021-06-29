@@ -12,4 +12,17 @@
 
   <artifactId>kogito-rules-core</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.kie.kogito.research</groupId>
+      <artifactId>kogito-application-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.kie.kogito.research</groupId>
+      <artifactId>kogito-rules-api</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+
 </project>
